@@ -3,7 +3,7 @@ FROM alpine:3.17
 WORKDIR /app
 
 # Copiar binario y datos
-COPY pocketbase /app/pocketbase
+COPY pocketbase.exe /app/pocketbase
 COPY pb_data /app/pb_data
 COPY pb_migrations /app/pb_migrations
 
